@@ -1,98 +1,73 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
-    text-decoration: none;
     list-style: none;
+    text-decoration: none;
 }
-
-header {
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    right: 0%;
+.nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding-right: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
-
-.logo img {
+.logo img{
     max-width: 120px;
     height: auto;
 }
-
-.navmenu {
+.navmenu{
     display: flex;
 }
-
-.navmenu a {
-    padding: 10px 20px;
+.navmenu a{
+    padding: 10px 15px;
+}
+a{
     color: black;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
+    transition: all 0.5s;
 }
-
-.navmenu a:hover {
-    color: brown;
+a:hover{
+    color: red;
+    transform: scale(1.1);
 }
-
-.navicon {
-    display: flex;
-    align-items: center;
+.navicons a{
+   margin-right: 20px;
 }
-
-.navicon a {
-    margin-right: 20px;
-    color: black;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.navicon a:hover {
-    color: brown;
-}
-
-#menuicon {
-    font-size: 35px;
-    cursor: pointer;
-}
-
-section {
-    padding: 5% 10%;
-}
-
-.hero {
+.hero{
+    padding:5% 10%;
     height: 100vh;
-    width: 100%;
-    background: url("./images/banner.avif");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   background: url('./images/banner.avif');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   align-items: center;
 }
 h5{
-    color: brown;
-    font-size: 16px;
+    color: red;
+   font-size: 30px;
+
 }
 h1{
     color: black;
-    font-size: 60px;
+    font-size: 65px;
+    font-weight: 900;
+
 }
 p{
-    color: black;
-    font-size: 20px;
     font-style: italic;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 .shop{
-    color: black;
-    font-size: 20px;
-    font-weight: 500;
     border: solid 2px;
-    padding: 12px 25px;
-    border-radius: 18px;
+    border-radius: 50px;
+    padding: 5px 15px;
     transition: all 0.5s;
 }
 .shop:hover{
@@ -102,18 +77,21 @@ p{
 .what{
     position: fixed;
     top: 85%;
-    right: 11%;
-   
-}
-.what a{
-     font-size: 30px;
-    color: green;
-    border: 2px solid;
+    right: 7%;
+    border: solid;
     border-radius: 50px;
-    padding: 15px 15px;
+    padding: 5px 5px;
     transition: all 0.5s;
 }
-.what a:hover{
-    background-color: green;
+.what i{
+    font-size:60px;
+    color: green;
+}
+.what i:hover{
     color: white;
+    transition: all 0.5s;
+}
+.what:hover{
+   color: white;
+   background-color: green;
 }
