@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu {
+    display: flex;
+}
+
+.navmenu a {
+    padding: 10px 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navmenu a:hover {
+    color: brown;
+}
+
+.navicon {
+    display: flex;
+    align-items: center;
+}
+
+.navicon a {
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navicon a:hover {
+    color: brown;
+}
+
+#menuicon {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+section {
+    padding: 5% 10%;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: url("./images/banner.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+h5{
+    color: brown;
+    font-size: 16px;
+}
+h1{
+    color: black;
+    font-size: 60px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.shop{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border: solid 2px;
+    padding: 12px 25px;
+    border-radius: 18px;
+    transition: all 0.5s;
+}
+.shop:hover{
+    background-color: black;
+    color: white;
+}
+.what{
+    position: fixed;
+    top: 85%;
+    right: 11%;
+   
+}
+.what a{
+     font-size: 30px;
+    color: green;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 15px 15px;
+    transition: all 0.5s;
+}
+.what a:hover{
+    background-color: green;
+    color: white;
+}
