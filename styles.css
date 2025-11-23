@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
-    position: fixed;
+    position: fixed;  
     top: 0;
     right: 0;
     width: 100%;
@@ -87,11 +87,11 @@ p{
     font-size:60px;
     color: green;
 }
-.what i:hover{
+.what i{
     color: white;
     transition: all 0.5s;
 }
-.what:hover{
+.what{
    color: white;
    background-color: green;
 }
